@@ -6,8 +6,8 @@
 ### **Initializers**
 
 ```js
-_init()
-_init_unchained()
+_init();
+_init_unchained();
 ```
 
 - Initializing the Implementation Contract
@@ -28,7 +28,7 @@ uint256[50] __gap; // MAX 50
 ```
 
 - Namespaced Storage Layout
-    - EIP-7201
+  - EIP-7201
 
 ```js
 pragma solidity ^0.8.20;

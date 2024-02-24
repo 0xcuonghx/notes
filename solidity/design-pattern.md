@@ -1,4 +1,5 @@
 # Design Pattern
+
 ## Factory Pattern
 
 ```
@@ -7,6 +8,7 @@ contract Factory {
   function deploy() public {}
 }
 ```
+
 - https://github.com/safe-global/safe-singleton-factory
 
 ## Proxy Pattern
@@ -26,6 +28,7 @@ contract Proxy {
 ```
 
 ## State Machine
+
 ```
 contract MultiSigWallet {
     // State Machine: Pending, Approved, Rejected

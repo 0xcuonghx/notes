@@ -1,17 +1,25 @@
 # How Ethereum calculator smart contract address
+
 ## `CREATE` opcode
+
 ```
 new_address = hash(sender, nonce)
 ```
+
 ## `CREATE2` opcode
+
 ```
 new_address = hash(0xFF, sender, salt, bytecode)
 ```
+
 ## `CREATE3` opcode
+
 ```
 new_address = hash(0xFF, sender, salt, KECCAK256_PROXY_CHILD_BYTECODE)
 ```
+
 - With
+
 ```
   /**
     @notice The bytecode for a contract that proxies the creation of another contract
@@ -35,7 +43,7 @@ new_address = hash(0xFF, sender, salt, KECCAK256_PROXY_CHILD_BYTECODE)
       0x06  0x34  0x34                  CALLVALUE       val 0 cds
       0x07  0xf0  0xf0                  CREATE          addr
   */
-  
+
   bytes internal constant PROXY_CHILD_BYTECODE = hex"67_36_3d_3d_37_36_3d_34_f0_3d_52_60_08_60_18_f3";
 
   //                        KECCAK256_PROXY_CHILD_BYTECODE = keccak256(PROXY_CHILD_BYTECODE);
@@ -43,4 +51,5 @@ new_address = hash(0xFF, sender, salt, KECCAK256_PROXY_CHILD_BYTECODE)
 ```
 
 # EXTCODESIZE Checks
+
 - FakeEOA can call pass extcodesize = 0 by calling it at constructor
