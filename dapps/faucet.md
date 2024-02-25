@@ -1,3 +1,4 @@
+```
 contract Faucet {
 
     uint256 public amountAllowed = 100; // the allowed amount for each request is 100
@@ -25,3 +26,4 @@ contract Faucet {
     }
 
 }
+```
