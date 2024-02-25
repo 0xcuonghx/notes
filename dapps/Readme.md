@@ -1,4 +1,7 @@
 - [x] Token Vesting
 - [x] NFT marketplace
-- [] Multisig Wallet
+- [ ] Multisig Wallet
   - [x] Safe
+- [ ] Yield farming
+- [ ] Borrow/Lend
+- [ ] Stake
