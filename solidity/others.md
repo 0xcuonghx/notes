@@ -1,6 +1,8 @@
 # NatSpec
+
 - Generate document from solidity comment
 - https://github.com/OpenZeppelin/solidity-docgen
 
 # commit and reveal
+
 - Prevent Frontrunning
