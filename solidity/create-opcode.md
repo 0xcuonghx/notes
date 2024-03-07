@@ -50,6 +50,6 @@ new_address = hash(0xFF, sender, salt, KECCAK256_PROXY_CHILD_BYTECODE)
   bytes32 internal constant KECCAK256_PROXY_CHILD_BYTECODE = 0x21c35dbe1b344a2488cf3321d6ce542f8e9f305544ff09e4993a62319a497c1f;
 ```
 
-# EXTCODESIZE Checks
+## `CREATEX` opcode
 
-- FakeEOA can call pass extcodesize = 0 by calling it at constructor
+- https://github.com/pcaversaccio/createx

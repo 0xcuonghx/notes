@@ -6,3 +6,7 @@
 # commit and reveal
 
 - Prevent Frontrunning
+
+# EXTCODESIZE Checks
+
+- FakeEOA can call pass extcodesize = 0 by calling it at constructor
