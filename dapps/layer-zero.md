@@ -5,6 +5,12 @@
 - `intrinsically secure` and `semantically universal` omnichain interoperability protocol
 - first omnichain message protocol (fully-connected mesh network)
 
+### Use case
+
+- Send arbitrary data
+- external function calls
+- tokens
+
 ### Version
 
 - LayerZero V1
