@@ -49,6 +49,19 @@
 
 ## Contracts
 
+### OApp
+
+- OAppSender
+  - `lzSend`
+- OAppReceiver
+  - `lzReceive`
+
+### OFT
+
+### Endpoint
+
+### MessageLib
+
 ## Resources
 
 - Docs: https://docs.layerzero.network/
