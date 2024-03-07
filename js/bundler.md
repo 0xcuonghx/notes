@@ -3,6 +3,12 @@
 - Rollup
 - Webpack
 
+## Rollup & Webpack
+
+- "Use webpack for apps, and Rollup for libraries"
+- Webpack better for commonjs
+- Rollup better for ES module
+
 ## Format
 
 - iife (browser)
@@ -16,6 +22,7 @@
   - is the best module format thanks to its simple syntax, async nature, and tree-shakeability
 - amd
   - asynchronous and good for front end.
+- https://github.com/rollup/awesome?tab=readme-ov-file#modules
 
 ### Why ES Module better than CommonJS
 
@@ -36,3 +43,8 @@
 
 - Building hooks
 - List of plugins: https://github.com/rollup/awesome
+
+## Boilerplate
+
+- https://github.com/jaebradley/fruit
+- https://github.com/rollup/rollup-starter-lib
