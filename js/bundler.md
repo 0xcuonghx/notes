@@ -51,3 +51,8 @@
 - Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments
   - Transform syntax
   - Polyfill features
+
+# tsdx
+
+- zero config for typescript library
+- include react
