@@ -2,6 +2,8 @@
 
 - Rollup
 - Webpack
+- tsc
+- babel
 
 ## Rollup & Webpack
 
@@ -44,7 +46,8 @@
 - Building hooks
 - List of plugins: https://github.com/rollup/awesome
 
-## Boilerplate
+# Babel
 
-- https://github.com/jaebradley/fruit
-- https://github.com/rollup/rollup-starter-lib
+- Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments
+  - Transform syntax
+  - Polyfill features
