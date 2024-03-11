@@ -142,6 +142,30 @@
 
 ## Contract
 
+### Analysis
+
+- EndpointV2.sol
+  - MessagingChannel.sol
+  - MessageLibManager.sol
+  - MessagingComposer.sol
+  - MessagingContext.sol
+- MessageLib.sol
+  - MessageLibRegistry.sol is collection of MessageLib
+  - responsible for securely emitting packets on the source chain and verifying them on the destination MessageLib
+  - ULN.sol
+    - is the baseline MessageLib included in every LayerZero deployment
+    - implements the minimal set of fundamental features necessary for any verification algorithm and is thus universally compatible with all blockchains
+    - composition of up to 254 DVNs
+    - DVN.sol
+      - Worker
+    - Executor.sol
+
+## Extensions
+
+- the protocol can be extended with additional execution features
+
+### Sources
+
 ### FT
 
 - https://github.com/LayerZero-Labs/solidity-examples/blob/main/contracts/token/oft/v2/OFTV2.sol
