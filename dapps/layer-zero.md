@@ -54,24 +54,49 @@
 
 ## Building protocol
 
-### Use case 1: ERC20 - ERC20
+### Usecase
 
-- https://docs.layerzero.network/contracts/oft
-- https://docs.layerzero.network/contracts/deploy-same-addresses
-- Governance:
-  - https://docs.layerzero.network/contracts/oft#security-and-governance
-  - https://github.com/LayerZero-Labs/omnichain-governance-executor
+- Use case 1: ERC20 - ERC20
 
-### Use case 2: Transfer native token
+  - https://docs.layerzero.network/contracts/oft
+  - https://docs.layerzero.network/contracts/deploy-same-addresses
+  - Governance:
+    - https://docs.layerzero.network/contracts/oft#security-and-governance
+    - https://github.com/LayerZero-Labs/omnichain-governance-executor
 
-- Opt 1: Protocols or DEXs Built on LayerZero
-- Opt 2: Wrapped Asset Bridges
+- Use case 2: Transfer native token
 
-### Use case 3: Native to Native
+  - Opt 1: Protocols or DEXs Built on LayerZero
+  - Opt 2: Wrapped Asset Bridges
 
-- https://github.com/LayerZero-Labs/mainnet-testnet-bridge
+- Use case 3: Native to Native
 
-### Use case 4: ERC721
+  - https://github.com/LayerZero-Labs/mainnet-testnet-bridge
+
+- Use case 4: ERC721
+
+### Deployments
+
+#### Contracts
+
+1. Building omnichain applications (Building oapps contracts)
+
+- create-lz-oapp@latest
+- https://github.com/LayerZero-Labs/solidity-examples
+
+2. Oapp
+3. OFT
+
+- OFT.sol: bridge ERC20 inherit OFT (mint/burn)
+- OFTAdapter.sol: bridge ERC20 native (lock/mint)
+
+#### UI
+
+- https://github.com/telosnetwork/telos-bridge
+
+1. `/bridge`
+2. `/oft`
+3. `/onft`
 
 ## Architecture
 
