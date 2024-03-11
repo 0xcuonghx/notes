@@ -37,22 +37,6 @@
 
 ## How it works
 
-### Components
-
-![lz-stack](./figures/lz-stack.png)
-
-### Steps
-
-![lz-works](./figures/lz-works.png)
-
-- Step 1: OAppSender call `lzSend()`
-
-![lz-packet](./figures/lz-packet.png)
-
-- Step 2: the configured DVNs each independently verify the packet on the destination MessageLib
-- Step 3: a worker (e.g., executor, DVN, user) commits the packet to the Endpoint in step
-- Step 4: an executor calls `lzReceive()`
-
 ## Contracts
 
 ### OApp
@@ -88,6 +72,73 @@
 - https://github.com/LayerZero-Labs/mainnet-testnet-bridge
 
 ### Use case 4: ERC721
+
+## Architecture
+
+![lz-stack](./figures/lz-stack.png)
+
+- Execution Layer
+  - OApp
+    - Sender
+    - Receiver
+  - Endpoint
+    - Lossless channel
+    - OApp config
+    - MessageLib manager
+  - Executors
+- Verification Layer
+
+  - MessageLib registry
+  - DVNs
+    - ZK
+    - k of N consensus
+    - Native bridge
+
+- 4 components:
+
+  - Endpoint
+  - MessageLib registry (append-only)
+  - DVNs
+  - Executors
+
+### Message transmission
+
+![lz-works](./figures/lz-works.png)
+
+- Step 1: OAppSender call `lzSend()`
+
+![lz-packet](./figures/lz-packet.png)
+
+- Step 2: the configured DVNs each independently verify the packet on the destination MessageLib
+- Step 3: a worker (e.g., executor, DVN, user) commits the packet to the Endpoint in step
+- Step 4: an executor calls `lzReceive()`
+
+### Endpoint
+
+- `send()` - send Sends a message through LayerZero.
+- `getInboundNonce` - Returns the largest nonce with all predecessors received
+- `lzReceive()` - Called by the executor to receive a message from the channel.
+
+- To handle erroneously sent messages or malicious packets
+  - Called by the receiver
+    - `skip()` - skip delivery
+    - `clear()` - skip both verification and delivery
+  - Called by the executor
+    - `nilify()` - invalidates a verified packet
+    - `burn()` - clear a packet without knowing the packet contents; this is useful if a faulty Security Stack commits an invalid has to the endpoint, or if an OApp needs to clear a nilified nonce
+
+#### Requirement
+
+- Lossless
+- Exactly-one
+
+### MessageLib
+
+- Ultra Light Node (ULN)
+
+### DVNs
+
+### Executors
 
 ## Contract
 
