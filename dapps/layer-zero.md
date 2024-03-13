@@ -45,6 +45,8 @@
   - `lzSend`
 - OAppReceiver
   - `lzReceive`
+- Compose
+  - `lzCompose`
 
 ### OFT
 
