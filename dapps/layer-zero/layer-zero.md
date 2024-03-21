@@ -5,6 +5,12 @@
 - `intrinsically secure` and `semantically universal` omnichain interoperability protocol
 - first omnichain message protocol (fully-connected mesh network)
 
+### Principles
+
+- Immutable: non-upgradeable, cannot be changed by any party
+- Censorship-Resistant: Individual messages can only be executed once all previous messages have been verified
+- Permissionless
+
 ### Use case
 
 - Send arbitrary data
@@ -103,6 +109,19 @@
 ## Architecture
 
 ![lz-stack](./figures/lz-stack.png)
+
+- Protocol
+  - Endpoints
+  - Message Libraries
+- Standards
+  - Contract standards (Oapp, OFT, ONFT)
+  - Message Packets
+  - Design patterns
+- Infrastructure
+
+  - DVNs
+  - Executors
+  - Security Stack: An application’s “Security Stack” references its unique configuration of DVNs, Executors, and other security preferences (like what chains are enabled and how many block confirmations DVNs must wait to verify a message)
 
 - Execution Layer
   - OApp
@@ -219,5 +238,8 @@
 - Paper: https://layerzero.network/publications/LayerZero_Whitepaper_V2.1.0.pdf
 - LZ contract V2: https://github.com/LayerZero-Labs/LayerZero-v2
 - UI:
+
   - https://github.com/telosnetwork/telos-bridge
   - https://github.com/fuseio/fuse-bridge-v2-dapp
+
+- ONFT contract standards are already available in V1 and will be available in V2 later this year.
