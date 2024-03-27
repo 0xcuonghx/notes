@@ -1,0 +1,2 @@
+- Random by solidity can predict
+- Use chainlink instead

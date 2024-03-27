@@ -1,0 +1,2 @@
+- Every transaction on blockchain networks undergoes a period of visibility in the mempool before execution
+- Guessing game
