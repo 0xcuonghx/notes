@@ -2,34 +2,33 @@
 
 ![mind-map](./figures/mind-map.png)
 
-- [ ] Authorization through tx.origin
+- [x] Authorization through tx.origin
 - [ ] Unsafe Typecase
 - [ ] Storage Bugs
-  - [ ] Unencrypted private data on-chain
+  - [x] Unencrypted private data on-chain
   - [ ] Proxy Storage Collision
-  - [ ] Write to Arbitrary Storage Location
-  - [ ] Uninitialized Storage Pointer
+  - [x] Write to Arbitrary Storage Location
+  - [x] Uninitialized Storage Pointer (solve at solc > 0.5.0)
 - [ ] Insufficient Checks
-  - [ ] Unchecked call return value
+  - [x] Unchecked call return value
   - [ ] Insufficient User-Input validation
-- [ ] Message call with hardcoded gas amount
+- [x] Message call with hardcoded gas amount
 - [ ] Logical bugs
 - [ ] Transaction order dependency
-- [ ] Short Address / Parameter Attack
+- [x] Short Address / Parameter Attack
 - [ ] Access-control
-  - [ ] Authenticate with tx.origin
-  - [ ] Default visibility
-    - [ ] State variable default visibility
-    - [ ] Function default visibility
-  - [ ] Unprotected Ether withdraw
+  - [x] Authenticate with tx.origin
+  - [x] Default visibility
+    - [x] State variable default visibility (default `public`)
+    - [x] Function default visibility (default `public`)
+  - [ ] Unprotected Ether withdrawal
   - [ ] Unprotected SELTDESTRUCT instruction
   - [ ] Missing modifier
   - [ ] Incorrect modifier names
   - [ ] Overpower roles
 - [ ] Calculation Errors
-  - [ ] Precision loss in calculations
-  - [ ] Divide before multiply
-- [ ] Unsafe ownership transfer
+  - [x] Precision loss in calculations (Divide before multiply)
+- [x] Unsafe ownership transfer
 - [ ] Improper array delete
 - [ ] Has collisions with multiple variable length arguments
 - [ ] Function select abuse
