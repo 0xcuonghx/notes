@@ -55,21 +55,8 @@ bytes memory options = OptionsBuilder.newOptions().addExecutorLzReceiveOption(20
 
 # Costs
 
-1. an initial source blockchain transaction
-2. the fee paid to the OApp's configured Security Stack
-3. the configured Executor fee for executing the message on the destination chain
-4. the message execution cost of the transaction on the destination blockchain itself
-
-```js
-GAS × DESTINATION_GAS_PRICE × (SOURCE_NATIVE_TOKEN_PRICE / DESTINATION_NATIVE_TOKEN_PRICE)
-```
-
 - V1
 
 ```solidity
 nativeFee = nativeFee.add(relayerFee).add(oracleFee)
 ```
-
-- AxelarDVNAdapter
-- CCIPDVNAdapter
-- https://github.com/LayerZero-Labs/LayerZero-v2/tree/main/messagelib/contracts/uln/dvn/adapters

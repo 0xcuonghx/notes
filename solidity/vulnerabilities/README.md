@@ -29,18 +29,18 @@
 - [ ] Calculation Errors
   - [x] Precision loss in calculations (Divide before multiply)
 - [x] Unsafe ownership transfer
-- [ ] Improper array delete
-- [ ] Has collisions with multiple variable length arguments
-- [ ] Function select abuse
+- [x] Improper Array Deletion
+- [x] Hash collisions with multiple variable length arguments (abi.encodePacked())
+- [x] Function selector abuse
 - [ ] Flash Loan attacks
-- [ ] Signature replay attacks
+- [x] Signature replay attacks
 - [ ] Block values as proxy for time
 - [ ] Delegate calls
   - [ ] Code injection via delegate call
   - [ ] Delegate call to untrusted callee
 - [ ] Denail of service (DOS)
-  - [ ] Unexpected revert
-  - [ ] Block gas limit
+  - [x] Unexpected revert
+  - [x] Block gas limit
   - [ ] External calls without gas stipends
   - [ ] Unexpected ether leading to DOS
   - [ ] Offline owner
@@ -55,7 +55,7 @@
   - [ ] Call depth attack
   - [ ] Solidity abi encoder v2 bug
   - [ ] Constantinople reentrancy
-- [ ] Entropy Illusion / Insecure randomness
+- [x] Entropy Illusion / Insecure randomness
 - [ ] Right-to-Left-override control character (U+202E)
 - [ ] Dirty High Order Bits
 - [ ] Float point arithmetic

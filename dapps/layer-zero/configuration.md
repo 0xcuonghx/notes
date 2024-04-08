@@ -44,6 +44,7 @@
 
 # Security Stack Configuration
 
+- https://docs.layerzero.network/v2/developers/evm/configuration/configure-dvns
 - confirmations
 - requiredDVNCount
 - optionalDVNCount
@@ -51,6 +52,10 @@
 - optionalDVNs
 
 # Executor Configuration
+
+- https://docs.layerzero.network/v2/developers/evm/configuration/configure-executor
+
+## Parameters
 
 - maxMessageSize
 - executor
