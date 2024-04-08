@@ -38,7 +38,12 @@ supplied = IERC20(lzToken).balanceOf(address(this));
 GAS × DESTINATION_GAS_PRICE × (SOURCE_NATIVE_TOKEN_PRICE / DESTINATION_NATIVE_TOKEN_PRICE)
 ```
 
-## Pricing Setter
+## Pricing Updater
 
-- AxelarDVNAdapter
-- CCIPDVNAdapter
+- PriceFeed.sol contract
+- https://etherscan.io/address/0x339d413ccefd986b1b3647a9cfa9cbbe70a30749
+
+- Using multiple oracles: https://docs.layerzero.network/v1/developers/oracle/google-cloud-oracle ~ DVN
+
+<!-- - AxelarDVNAdapter
+- CCIPDVNAdapter -->
