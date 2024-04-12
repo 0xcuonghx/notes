@@ -23,9 +23,9 @@
     - [x] Function default visibility (default `public`)
   - [ ] Unprotected Ether withdrawal
   - [ ] Unprotected SELTDESTRUCT instruction
-  - [ ] Missing modifier
-  - [ ] Incorrect modifier names
-  - [ ] Overpower roles
+  - [x] Missing modifier
+  - [x] Incorrect modifier names
+  - [x] Overpower roles
 - [ ] Calculation Errors
   - [x] Precision loss in calculations (Divide before multiply)
 - [x] Unsafe ownership transfer
@@ -36,8 +36,8 @@
 - [x] Signature replay attacks
 - [ ] Block values as proxy for time
 - [ ] Delegate calls
-  - [ ] Code injection via delegate call
-  - [ ] Delegate call to untrusted callee
+  - [x] Code injection via delegate call
+  - [x] Delegate call to untrusted callee
 - [ ] Denail of service (DOS)
   - [x] Unexpected revert
   - [x] Block gas limit
