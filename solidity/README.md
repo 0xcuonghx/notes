@@ -1,0 +1,51 @@
+# Roadmap
+
+- [ ] Getting started
+  - [ ] Basics of Blockchain
+    - [ ] Reading "Mastering Bitcoin"
+    - [x] Reading "Mastering Ethereum"
+  - [ ] Fundamentals of Smart Contracts
+    - [x] Solidity Document Official
+    - [ ] Understand Ethereum's Standard Proposals (ERC)
+      - [x] ERC20
+      - [x] ERC165
+      - [x] ERC173: Contract ownership standard
+      - [x] ERC191: Data signature standard
+      - [ ] ERC601: Deterministic wallet hierarchical structure standard
+      - [x] ERC721
+      - [x] ERC777
+      - [x] ERC1155
+      - [ ] ERC1167: Minimal proxy contract
+      - [ ] ERC1967: Proxy data storage slots
+      - [x] ERC2612: Token permit signature
+      - [ ] ERC4626: Token vault standard
+    - [x] Study OpenZepplin's token implement
+    - [x] Understanding what upgradable contracts/proxy contracts are
+      - [x] https://blog.openzeppelin.com/proxy-patterns
+    - [ ] Learning to Write Smart Contracts
+      - [x] WTF Solidity Smart Contract Tutorials
+      - [x] Crypto Zombies
+      - [ ] Smart Contract Engineer
+      - [x] Solidity by Example
+    - [ ] Utilizing Smart Contract Build Tools
+      - [x] Popular Online IDEs
+        - [x] Remix
+      - [x] Familiarization with Package Managers
+      - [ ] Popular Smart Contract Testing and Debugging Frameworks
+        - [ ] Foundry
+        - [x] Hardhat
+        - [ ] Brownie
+        - [ ] Tenderly
+        - [ ] Sentio
+      - [ ] Interacting with Smart Contracts
+        - [x] ethers.js
+        - [ ] web3.js
+        - [ ] viem
+  - [ ] Common Smart Contract Vulnerabilities
+    - [x] https://github.com/Quillhash/Solidity-Attack-Vectors
+    - [x] https://scsfg.io/
+    - [ ] https://swcregistry.io/
+    - [ ] https://github.com/kadenzipfel/smart-contract-vulnerabilities
+  - [ ] Best Practices and Security Standards
+    - [ ] https://fravoll.github.io/solidity-patterns/
+  - [ ] Basic CTF Challenges
