@@ -47,5 +47,14 @@
     - [ ] https://swcregistry.io/
     - [ ] https://github.com/kadenzipfel/smart-contract-vulnerabilities
   - [ ] Best Practices and Security Standards
-    - [ ] https://fravoll.github.io/solidity-patterns/
-  - [ ] Basic CTF Challenges
+    - [x] https://fravoll.github.io/solidity-patterns/
+  - [x] Basic CTF Challenges
+    - [x] https://ethernaut.openzeppelin.com/
+    - [x] https://capturetheether.com/
+- [ ] Diving Deeper Into Smart Contracts
+  - [ ] Fundamentals of Decentralized Finance (DeFi)
+    - [ ] How To DeFi: Beginner
+    - [ ] How To DeFi: Advanced
+    - [ ] https://teachyourselfcrypto.com/
+    - [ ] https://www.khanacademy.org/economics-finance-domain/core-finance
+    - [ ] https://tokenomicsdao.xyz/tokenomics101/
