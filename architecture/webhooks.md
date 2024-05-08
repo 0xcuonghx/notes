@@ -37,4 +37,7 @@
 
 - https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md
 - https://webhooks.fyi/
-- https://pyemma.github.io/How-to-Design-Webhook/
+
+# Architecture
+
+![architecture](architecture.png)
