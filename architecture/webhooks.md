@@ -40,4 +40,4 @@
 
 # Architecture
 
-![architecture](architecture.png)
+![architecture](./figures/webhook.png)
