@@ -1,1 +1,0 @@
-- The ERC4626 Tokenized Vault Standard
