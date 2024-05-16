@@ -42,6 +42,11 @@ uniswap_factory ---create-> uniswap_exchange
 - Paper:https://uniswap.org/whitepaper-v3.pdf
 - Github: https://github.com/Uniswap/v3-core
 
+## V4
+
+- Paper: https://github.com/Uniswap/v4-core/blob/main/docs/whitepaper-v4.pdf
+- Github: https://github.com/Uniswap/v4-core
+
 ### Features
 
 - Concentrated Liquidity
