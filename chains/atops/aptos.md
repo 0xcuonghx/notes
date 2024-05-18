@@ -23,7 +23,7 @@
 - Resources
 - Ledger state
 
-#
+# Features
 
 - Transaction validity protection
   - Via transaction sequence number
@@ -34,3 +34,7 @@
   - Various recovery schema (MPC, social recovery, ...)
 - Pre-signing transaction transparency
 - Practical light client protocols
+
+# Resources
+
+- Paper: https://aptosfoundation.org/whitepaper/aptos-whitepaper_en.pdf
