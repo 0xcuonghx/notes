@@ -1,0 +1,2 @@
+- [ ] Reading rust document: https://doc.rust-lang.org/book/
+- [ ] Reading cargo document: https://doc.rust-lang.org/cargo/
