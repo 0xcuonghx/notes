@@ -19,6 +19,7 @@ cargo
 ### Variable
 
 - immutable by default
+- contrants: always immutable
 
 ### Data Types
 
@@ -28,21 +29,33 @@ cargo
   - Integer
     - Overflow
   - Float-point
+    - IEEE-754
   - Boolean
   - Character
+    - use single quote '', string use double quoute ""
+    - 4 bytes
 - Compound
   - Tuple
+    - fixed-length
   - Array
+    - fixed-length
+    - same tyoes
 
 ### Functions
 
 - Function signatures
 - Statement & Expression
+    - exepression is part of statement
+    - experession inclues call function, call marco, or in block
+    - experession not have ;, statement is have ; at the end line
 
 ### Control FLow
 
 - If-else
 - Loop
+    - break counter * 2;
+    - loop label, break;
+    - while
 
 ## Ownership
 
@@ -56,17 +69,10 @@ cargo
   - pointer
   - allocate
 - ownership
-  - scope
+  - Heap: String 
   - `drop` function - Resource Acquisition Is Initialization (RAII) in C++
-  - move
-  - `Copy` trait
-  - `Drop` trait
-- reference
-  - pointer
   - borrow
-  - mutable reference
-  - data race (race condition issues)
-  - dangling references
+  - dangling references: reference to nothing
   - slice
     - slice is kind of reference
 

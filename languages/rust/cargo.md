@@ -8,6 +8,7 @@
 - cargo check
 - cargo update
 - cargo doc
+- cargo test
 
 # Resources
 
