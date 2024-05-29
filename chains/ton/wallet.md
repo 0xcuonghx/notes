@@ -1,0 +1,6 @@
+- mnemonic
+- also smart contract
+- have initial code when execute first transaction
+- can receive funds when inactive
+- versioning
+- 1 mnemonic can have multiple wallets with difference version
