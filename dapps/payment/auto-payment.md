@@ -1,0 +1,2 @@
+- https://usa.visa.com/solutions/crypto/auto-payments-for-self-custodial-wallets.html
+- https://drive.google.com/file/d/1eAJW2FnHT1PptbER3Ba8mAcoKlYnXobY/view?usp=drive_link

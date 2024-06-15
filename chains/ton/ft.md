@@ -1,0 +1,1 @@
+- jettons standard: https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md
