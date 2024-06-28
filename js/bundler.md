@@ -56,3 +56,5 @@
 
 - zero config for typescript library
 - include react
+
+# vite

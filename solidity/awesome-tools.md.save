@@ -1,0 +1,10 @@
+- Development Framework
+  - hardhat
+  - foundry
+
+- Openzepplin checks workflow
+  - lint
+    - solhint + prettier
+  - certora verification tool
+  - slither
+  - codespell
