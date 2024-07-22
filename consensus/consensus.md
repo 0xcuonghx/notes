@@ -1,0 +1,12 @@
+- Sybil attacks
+- chain selection rule
+  - longest chain
+  - GHOST fork-choice rule
+- fault-tolerant
+  - byzantine fault tolerance
+    - able to continue operating event if some of the nodes fail or act maliciously
+    
+- PoW
+- PoS
+- PoA
+- PoSA

@@ -1,0 +1,6 @@
+- PBFT(Practical Byzantine Fault Tolerance)
+  - BFT
+  - synchronous(PBFT) vs asynchronous(Honey Badger BFT)
+  - https://medium.com/unitychain/if-you-really-want-to-make-sense-of-blockchain-you-cannot-ignore-the-classics-an-introduction-to-3c72dc8c5515 
+- Casper FFG 
+  - https://medium.com/unitychain/intro-to-casper-ffg-9ed944d98b2d
