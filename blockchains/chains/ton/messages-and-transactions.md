@@ -2,6 +2,7 @@
 - external: outside -> smart_contract
 - internal: smart_contract -> smart_contract
 - logs: smart_contract -> outside
+
 https://docs.ton.org/v3/documentation/smart-contracts/message-management/ecosystem-messages-layout
 # Transactions
 - in_msg
