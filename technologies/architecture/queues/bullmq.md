@@ -19,7 +19,8 @@
   - deduplication
   - delayed
   - repeated
-  - prioritied
-  
+  - prioritised
+
+- Lifecycle of a job: https://docs.bullmq.io/guide/jobs/getters
 
 - Redis
