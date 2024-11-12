@@ -7,9 +7,9 @@
 - Worker
   - events
   - concurrency
-  - graceful shutdown: other worker take stalled of shutdown worker
+  - graceful shutdown: other workers take stalled of shutdown worker
   - Process busy because nodejs single threads
-    - Stalled jbos
+    - Stalled jobs
     - Sandboxed processors
     
 - Jobs
@@ -22,5 +22,12 @@
   - prioritised
 
 - Lifecycle of a job: https://docs.bullmq.io/guide/jobs/getters
-
+- Job schedule
+  - Interval
+  - Cron
+  - Custom
+- Flows
+  - parent-child strategies
+- Metrics
+- Rate limit
 - Redis
