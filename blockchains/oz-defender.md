@@ -3,7 +3,7 @@
   - **code inspector**: power by AI
   - **audit**
   - **deploy**
-  - relayers: send transactions
+  - relayers: EOA with private key in secure vaults
   - monitor
   - transaction proposal
   - actions
