@@ -18,6 +18,7 @@
 - tgWebAppThemeParams
 - ...
 
+# Packages
 - @telegram-apps/signals
 - @telegram-apps/bridge
 - @telegram-apps/sdk
