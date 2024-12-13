@@ -12,4 +12,15 @@ Solana
 Compression
 
 
-Project
+- Integrations
++ Project
+  + Badges
++ Users
+  + Profiles
+    + Achievements
+    + XP
++ Characters
+  + Assemblings
+  + Wrappings
++ Resources
+  + Recipes  
