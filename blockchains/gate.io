@@ -1,0 +1,2 @@
+- Wallet Mini Apps
+- CeFi (Centralized Finance) <> DeFi
