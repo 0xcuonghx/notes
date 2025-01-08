@@ -1,2 +1,5 @@
 - iter
 - sshmenu
+- sneek automation
+- assets management
+- facebook AI generate
