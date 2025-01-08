@@ -1,0 +1,6 @@
+- Pricing 20$ (16$)
+- Features:
+  - Tab
+  - Composer
+  - Chat
+  - Cmd K
