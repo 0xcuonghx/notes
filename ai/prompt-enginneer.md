@@ -3,3 +3,8 @@
   - COT
   - React
   - DSP
+---
+- Prompt Element:
+  - Instruction
+  - Context
+  - Input Data  
