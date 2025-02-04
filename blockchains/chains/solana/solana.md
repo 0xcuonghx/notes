@@ -19,28 +19,36 @@
 # Concepts
 
 - Account model
-- Transaction
-- Transaction fee
+- Transactions and instructions
+- Fees
+  - Transaction
+  - Prioritization
+  - Rent 
 - Programs
-- Program Derived Address (seeds, sign)
-- Cross Program Invocation
+- Program Derived Address (PDAs)
+- Cross Program Invocation (CPI)
 - Token
+  - FT
+  - NFT 
 - RPC Endpoints
 
 ## Account model
-
+- "Accounts" table
 - ED25519
 
 ```
 {
- data
+ data: state or executable program code
  executable
- amports
+ lamports // balance
  owner
+ rent_epoch
 }
 ```
 
 - Native program
+  - System program
+  - BPF loader
 - BPF loader
 - Sysvar program
 - custom program
@@ -49,8 +57,16 @@
 
 ![account-model](./figures/account-model.png)
 
-## Transaction
+## Transaction && instructions
 
 - instructions
   - order
   - atomic
+
+![image](https://github.com/user-attachments/assets/b67d0027-6d6f-46d9-87a4-784c900f4285)
+## Fees
+## Programs
+- is the account store executable logic
+- organized instructions
+## PDA
+## CPI
